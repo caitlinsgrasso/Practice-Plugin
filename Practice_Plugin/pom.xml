@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>14.0.0</version>
+		<relativePath />
+	</parent>
+
+	<groupId>csgrasso</groupId>
+	<artifactId>Practice_Plugin</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+
+	<name>Practice Plugin</name>
+	<description>A Maven project implementing an ImageJ 1.x plugin.</description>
+	<url>https://github.com/caitlinsgrasso/Practice-Plugin.git</url>
+	<inceptionYear>2018</inceptionYear>
+	<organization>
+		<name>Gleghorn Lab</name>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>csgrasso</id>
+			<name>Caitlin Grasso</name>
+		</developer>
+	</developers>
+	
+	<contributors>
+		<contributor>
+			<name>Gleghorn Lab</name>
+			<roles><role>founder</role></roles>
+		</contributor>
+	</contributors>
+
+	<mailingLists>
+		<mailingList>
+			<name>ImageJ Forum</name>
+			<archive>http://forum.imagej.net/</archive>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:git://github.com/caitlinsgrasso/Practice-Plugin</connection>
+		<developerConnection>scm:git:git@github.com:caitlinsgrasso/Practice-Plugin</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/caitlinsgrasso/Practice-Plugin.git</url>
+	</scm>
+	
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/caitlinsgrasso/Practice-Plugin.git</url>
+	</issueManagement>
+	<ciManagement>
+		<system>None</system>
+	</ciManagement>
+
+	<properties>
+		<package-name>pkg</package-name>
+		<main-class>pkg.Practice_Plugin</main-class>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>My Company, Inc.</license.copyrightOwners>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+	</dependencies>
+</project>
